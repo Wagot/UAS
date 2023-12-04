@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Animasi</title>
+  <title>toni hamka</title>
   
   <link href="css/bootstrap.css" rel="stylesheet">
   
@@ -29,18 +29,10 @@
   
   <div class="d-flex justify-content-center">
     
-    <div class="panah"> 
-    <a href="#" class="btn btn-outline-primary" id="panah-kiri">&lArr;</a>
 
-    </div>
-    <div class="panah">
-      <a href="#" class="btn btn-outline-primary" id="panah-kanan">&rArr;</a>
-      
     </div>
   </div>
-  
  
-
  <html>
  <head>
    <meta charset="UTF-8">
@@ -53,44 +45,20 @@
  </body>
  </html>
 <script>
-  var langkahkanan = 1;
-  var langkahkiri = 1;
-  var jumlahlangkah = 4;
-  var posisibackgroud = 10;
-  
-  var interval;
-  
-  $(document).ready(function(){
-    $("#panah-kanan").on("touchstart",function () {
-      clearInterval(interval);
-      
-      interval = setInterval( () => {}, 100  )
-    })
-    
-    $("#panah-kanan").click(function(){
-      
-      langkahkanan++;
-      posisibackgroud = posisibackgroud - 8;
-      
-      if (langkahkanan == jumlahlangkah) {
-        langkahkanan = 1;
-      }
-      
-      $("#objek").attr('src', 'gambar/kanan' + langkahkanan + '.png');
-      $("#stage").css('background-position-x',posisibackgroud)
-    })
-    
-    $('panah-kiri').click(function () {
-langkahkiri++;
-posisibackgroud = posisibackgroud + 8;
-if (langkahkiri == jumlahlangkah) {
-  langkahkiri = 1;
-}
-$("#objek").attr("src", "gambar/kiri-" + langkahkiri + ".png");
-$("#stage").css("background-position-X", posisi background);
+ 
+
     })
   })
 </script>
+ <h1> nama:toni hamka<h1>
+     <h2>kelas:11<h2>
+       <h3>tempat tanggal lahir:bogor,29 juni 2006<h3>
+<div class="d-flex justify-content-center">
+    <div class="btn btn-primary m-2" id="tombol-kiri">Read More</div>
+    
+
+    
+</div>
 </body>
 
 </html>
